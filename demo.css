@@ -1,0 +1,63 @@
+
+
+
+
+
+.vector-area{}
+.vector-area h4{
+	text-align: center;
+	font-weight: 700;
+	margin: 50px 0;
+	font-style: italic;
+}
+.vector-flex{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.vweb{
+	width: 48%;
+	margin: 15px;
+
+}
+.vweb a{
+	text-decoration: none;
+	font-style: italic;
+	font-size: 16px ;
+	font-weight: 600;
+	color: red;
+	padding: 25px 0;
+}
+.
+.vweb img{
+	width: 70%;
+	height: 1000px;
+	box-shadow: 0px 0px 10px black;
+	display: block;
+	overflow: hidden;
+}
+.vweb a::after:{
+	content: "";
+	width: 0%;
+	height: 3px;
+	background-color: green;
+	bottom: 0;
+	left: 0;
+	transition: .6s;
+}
+
+.coros{
+	display: flex;
+}
+.coros h6{
+	padding: 15px 0;
+}
+.vweb .coros i{
+	font-size: 35px;
+	color: red;
+	width: 50px;
+	padding: 5px 0;
+	justify-content: center;
+	text-align: center;
+}
