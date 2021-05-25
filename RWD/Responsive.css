@@ -73,7 +73,7 @@
 	display:block;
 	}
 	.Service-flex .PSD{
-	width: 75%;
+	width: 95%;
 	margin: 20px auto;
 	}
 	.class p{
@@ -102,19 +102,29 @@
 		
 	}
 	.details{
-	width: 75%;
-	
+	width: 95%;
+		margin: 0 auto;
 	}
 
-
+	table{
+	width: 100%;
+	}
 	.vector-flex{
 		display: block;
 	}
 	.vweb{
-		width: 75%;
+		width: 95%;
 		margin: 35px auto;
 	}
-
+	.intro-head img{
+		border-radius: 15px;
+	}
+	.Service-area h4{
+	font-size: 25px;
+	}
+	.Service-area h4 span{
+	font-size:45px;
+	}
 
 }
 
@@ -132,7 +142,11 @@
 	.logo{
 		width: 25%;
 		margin-top: 10px;
-	}
+	}	
+	.intro-area h2{
+	font-size: 25px;
+	font-weight: 600;
+`}
 
 }
 
@@ -185,6 +199,10 @@
 	}
 	.img-layer p{
 	padding-top: -20px;
+	}
+	.footer .left-site p{
+	width: 80%;
+	margin: 0 auto;
 	}
 
 }
