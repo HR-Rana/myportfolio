@@ -42,6 +42,12 @@
 	.top-right{
 		display: none;
 	}
+	.text-sites{}
+	.text-sites h2{
+		font-size: 30px;
+	}
+
+	
 	.carousel{
 	width: 100%;
 	height: 20vh;
@@ -150,7 +156,19 @@
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px){	
+	.personal-area{
+		height: 90vh;
+	}
+	.player{
+		height:90vh;
+	}
+	.text-sites h2{
+		font-size: 25px;
+	}
+
+	
+	
 	.top-left{
 		display: none;
 	}
